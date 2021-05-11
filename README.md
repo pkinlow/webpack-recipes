@@ -1,2 +1,2 @@
 # react-recipes
-List of react recipes
+List of webpack recipes
