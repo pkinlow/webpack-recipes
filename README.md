@@ -1,6 +1,6 @@
 # react-recipes
 List of webpack recipes
-- Webpack for General JaavaScript
+- Webpack for General JavaScript
 - Webpack for HTML Page
 - Webpack for JavaScript Library
 - Webpack for JavaScript App
