@@ -1,4 +1,4 @@
-# JavaScript Project Step by Step Instructions
+# JavaScript Project Setup Instructions
 Here are a set of instructions for starting a JavaScript project. 
 
 ## Foundational Setup
