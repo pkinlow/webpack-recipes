@@ -578,7 +578,8 @@ When updating to the latest npm package, sometimes it's cleaner to uninstall the
 - replace cssmin with cssnano
 - replace `eslint-loader` with `eslint-webpack-plugin` ( See config )
 - update to latest `file-loader` or ( remove and use webpack out of the box `type: 'asset/resource'` ) 
-
+- remove UglifyJSPlugin because Webpack 5 handles minification without an extra plugin.
+- remove babel-polyfill as separate entry because the polyfills are handled with core-js and regenerator-runtime. The required polyfills are done with babel. 
 
 ### Use newer config. 
 - Keep in mind of the plugins that being used. 
