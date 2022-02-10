@@ -217,7 +217,7 @@ Also read the docs about [Webpack's dev server](https://webpack.js.org/configura
 
 ### Add webpack.config.js to the root of the project. 
 
-### Webpack Config for a JavaScript Project without CSS and LESS
+### Webpack Config for a JavaScript Project without LESS
 
 
 ```
