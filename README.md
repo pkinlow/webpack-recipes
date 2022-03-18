@@ -192,7 +192,7 @@ See webpack's docs about the [HtmlWebpackPlugin](https://webpack.js.org/plugins/
 Also read the docs about [Webpack's dev server](https://webpack.js.org/configuration/dev-server/)
 
 
-### Add build script to the package.json
+### Add build scripts to the package.json
 
 ```
 ...
@@ -213,7 +213,7 @@ Also read the docs about [Webpack's dev server](https://webpack.js.org/configura
 - `npm run build:dev` - This will run a dev build and keep webpack in watch mode.
 - `npm run build:analyze` - This will run a production build with the build analyzer results. 
 - `npm run start-dev-server` - This is an optional build for running the dev server.
-- `npm run start-dev-server` - This is an optional build for running the dev server with a production build.
+- `npm run start-server` - This is an optional build for running the dev server with a production build.
 
 ### Add webpack.config.js to the root of the project. 
 
