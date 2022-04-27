@@ -582,11 +582,11 @@ When updating to the latest npm package, sometimes it's cleaner to uninstall the
 - remove babel-polyfill as separate entry because the polyfills are handled with core-js and regenerator-runtime. The required polyfills are done with babel. 
 
 ### Use newer config. 
-- Keep in mind of the plugins that being used. 
-- Do not use the prettier-webpack-plugin ( install use prettier separately from webpack - See prettier section )
+- Keep in mind of the plugins that are being used. 
+- Do not use the prettier-webpack-plugin ( install and use prettier separately from webpack - See prettier section )
 - Make webpack-bundle-analyzer plugin conditional based on an environment variable USE_ANALYZER instead of using it with every build.
-- Try to be consistent with the bundle filename. The newer config use the name from the package.json, but it that doesn't work, then hard code the `appName` variable.
-- If you app needs to output css as a separate bundle file, then use the mini-css-extract-plugin. If not, then do not include the MiniCssExtractPlugin.loader to the module rules config.
+- Try to be consistent with the bundle filename. The newer config use the name from the package.json, if that doesn't work, then hard code the `appName` variable.
+- If your app needs to output css as a separate bundle file, then use the mini-css-extract-plugin. If not, then do not include the MiniCssExtractPlugin.loader to the module rules config.
 - See [this resource](https://webpack.js.org/migrate/5/) if there are more advance migration configuration to consider.
 
 See new config example [Webpack Config for a JavaScript Project with CSS and LESS](#webpack-config-for-a-javaScript-project-with-css-and-less)
