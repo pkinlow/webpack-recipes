@@ -470,7 +470,7 @@ Install React dependencies
 `npm install --save git+ssh://git@github.com/wvus-ibu/slide`
 #### Install WVUS Forms
 
-`npm install --save git+ssh://git@github.com/wvus-ibu/wvus-forms#v5.0.0`
+`npm install --save git+ssh://git@github.com/wvus-ibu/wvus-forms`
 
 #### Install Client Logger
 
