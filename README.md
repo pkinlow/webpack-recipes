@@ -238,7 +238,7 @@ const version = require("./package.json").version;
 const useAnalyzer = (process.env.USE_ANALYZER && process.env.USE_ANALYZER.toLowerCase() == "true") === true;
 
 module.exports = (env, options) => {
-  const { mode } = env;
+  const { mode } = options;
 
   const config = {
     entry: {
